@@ -4,7 +4,7 @@
   "description": "this is react.js",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack --mode development --config webpack.config.js && npx webpack-dev-server",
+    "build": "npx webpack --mode development --config webpack.config.js && npx webpack-dev-server --hot --liveReload false",
     "test": "Test"
   },
   "keywords": [
